@@ -1,7 +1,7 @@
 <?php 
 
-	define('DB_INFO', 'mysql:host=localhost;dbname=simple_blog');
-	define('DB_USER', 'root');
-	define('DB_PASS', 'Kirkhammett129!')
+	define('DB_INFO', 'mysql:host=localhost;dbname=mrsludge');
+	define('DB_USER', 'mrsludge');
+	define('DB_PASS', 'mrsludge')
 
 ?>
