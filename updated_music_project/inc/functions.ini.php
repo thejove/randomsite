@@ -13,7 +13,7 @@
 			$stmt = $db->prepare($sql);
 			$stmt->execute(array($_GET['id']));
 			
-			$data = $stmt->fetch();
+			$data = $stmt->fetchAll();
 		
 			//Set display all artists
 			$dispArtist = 0;
