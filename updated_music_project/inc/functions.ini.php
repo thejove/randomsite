@@ -22,12 +22,13 @@
 		//If no id was supplied display all artists
 		else
 		{
-			$sql = "SELECT artist_name
+			$sql = "SELECT artist_id, artist_name
 			FROM artists
 			ORDER BY artist_id ASC";
 			foreach($db->query($sql) as $row)
 				$data[] = array(
-						'artist_name' => $row['artist_name']
+						'artist_name' => $row['artist_name'],
+						'artist_id' => $row['artist_id']
 				);
 			
 			$dispArtist = 1;
