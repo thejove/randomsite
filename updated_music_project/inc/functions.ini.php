@@ -5,7 +5,7 @@
 		$data = array();
 		
 		//If an id was supplied display artists albums
-		if(isset($id))
+		if(is_null($id))
 		{
 			$sql = "SELECT album_name
 					FROM albums
