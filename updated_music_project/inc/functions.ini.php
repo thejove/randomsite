@@ -1,6 +1,6 @@
 <?php 
 
-	function getData($db, $id)
+	function getData($db, $id=NULL)
 	{
 		$data = array();
 		

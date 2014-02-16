@@ -36,7 +36,7 @@
 
 ?>
 
-			<h2><?php echo $data['album_name']?></h2>
+			<h2><?php echo $albName['album_name']?></h2>
 			<?php }?>
 			<p><a href="./">Back To Artists</a></p>
 <?php 	
@@ -49,8 +49,8 @@
 ?>
 
 			<p>
-				<a href="?id=<?php echo $data['artist_id']?>">
-					<?php echo $data['artist_name']?></a>
+				<a href="?id=<?php echo $artName['artist_id']?>">
+					<?php echo $artName['artist_name']?></a>
 			</p>
 <?php 
 		}
