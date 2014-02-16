@@ -32,7 +32,7 @@
 			
 			$dispArtist = 1;
 			
-			if(!empty($data))
+			if(empty($data))
 			{
 				$dispArtist = 0;
 				
