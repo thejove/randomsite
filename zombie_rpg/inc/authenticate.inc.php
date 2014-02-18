@@ -1,7 +1,6 @@
 <?php 
-
-	include_once 'db.inc.php';
 	session_start();
+	include_once 'db.inc.php';
 	
 	if($_SERVER['REQUEST_METHOD'] == 'POST')
 	{
@@ -31,7 +30,7 @@
 		{
 			$_SESSION['player'] = $player;
 			echo "Logged in successfully!<br />";
-			echo "<a href=''>Continue</a>";
+			echo "<a href='../'>Continue</a>";
 		}
 		else
 		{
